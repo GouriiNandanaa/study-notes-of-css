@@ -1,0 +1,79 @@
+the impact of css is very big
+we can find the css from chrome development tools
+
+app browsers apply a basic styling in the html document
+slight changes among different browsers
+
+some margin will be there
+so we have to overwrite it sometimes
+
+css syntax
+each rule targets a specific tag or element
+ 
+css rules has 2 component
+SELECTOR            DECLARAtION
+
+names, id, class
+id-->#
+.comment  -->div
+
+
+
+
+Sure! Here's the explanation in plain text:
+
+---
+
+**object-fit: cover;**
+
+* This makes the image fill the entire container.
+* The image keeps its aspect ratio.
+* Some parts of the image may be cropped.
+* It’s useful when you want the image to fully cover the space, like in profile pictures or banners.
+
+**object-position: right;**
+
+* This controls where the image is shown inside the container.
+* "right" means show the right side of the image if it gets cropped.
+* It works only when object-fit is not "fill".
+
+---
+
+### Values for `object-fit`:
+
+1. **fill** – Default value. Image stretches to fill the box. May distort.
+2. **contain** – Image is resized to fit inside the box. No cropping. May leave empty space.
+3. **cover** – Image is resized to cover the box. Cropped if needed.
+4. **none** – Image keeps original size. May overflow.
+5. **scale-down** – Acts like either "none" or "contain", whichever is smaller.
+
+---
+
+### Values for `object-position`:
+
+* Can take **keywords**:
+
+  * `left`, `center`, `right`
+  * `top`, `bottom`
+* Can also take **percentages** or **lengths**:
+
+  * `object-position: 50% 50%;` (center)
+  * `object-position: 100% 0%;` (top-right corner)
+  * `object-position: 10px 20px;`
+
+Default is `object-position: 50% 50%;` (centered).
+
+---
+
+So putting it together:
+
+```css
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: right;
+}
+```
+
+This means: "Make the image fill the 300x200 space, crop if needed, and show more of the right side."

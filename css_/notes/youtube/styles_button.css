@@ -1,0 +1,143 @@
+.youtube {
+  background-color: rgb(202, 0, 0);
+  color: white;
+  border: none;
+  /* height: 36px;
+  width: 100px; */
+  padding: 10px 16px;
+
+  border-radius: 1.5px;
+  cursor: pointer;
+  margin-right: 8px;
+
+  transition: opacity 0.15s;
+  vertical-align:top;
+
+}
+
+.facebook{
+  border-radius: 1.5px;
+  background-color: white;
+  color: rgb(7, 120, 226);
+  /* width: 62px;
+  height: 36px; */
+
+  padding: 9px 16px;
+
+
+
+
+  border: 1.4px solid rgb(31, 139, 240);
+  font-size: small;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 8px;
+
+  transition: background-color 0.15s,
+    color 0.15s;
+
+  vertical-align:top;
+
+
+}
+
+.twitter{
+  background-color: rgb(31, 139, 240);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  /* height: 36px;
+  width: 70px; */
+  padding: 10px 16px;
+
+
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: opacity 0.15s,
+    box-shadow 0.15s;
+
+  vertical-align:top;
+
+}
+
+
+.youtube:hover{
+  opacity: 0.8;
+}          
+
+.youtube:active{
+  opacity: 0.5;
+}
+
+.facebook:hover{
+  background-color: rgb(31, 139, 240);
+  color: white;}
+
+.facebook:active{
+  opacity: 0.7;
+}
+
+.twitter:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  /* horizontal  vertical   blurred    color */
+}
+
+.twitter:active{
+  opacity: 0.7;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+        
+
+
+/* actually its not too good to have height and the width of the button
+
+it will cause the overflowing of the text if the text in that button changes
+
+so its not a good way
+
+so instead of height and width, we can remove it
+then we can see that the button will adjust itself based on the text
+
+but the gap between can be adjusted
+
+margin - space outside the border
+        can be applied in the 4 directions
+            - individually assigned for all 4 directions
+            - margin:10px means apply the margin on the 4 sides
+            - margin : 10px 20px  means 10px in top and bottomm & 20px at the left and right
+            - margin: 10px 20px 30px: means top = 10px left&right = 20px and bottom =30px
+            -margin: 10px 15px 20px 25px means top = 10px, right = 15px, bottom = 20px, left = 25px 
+          
+
+padding – space inside the border (between content and border)
+can be applied in the 4 directions
+    – individually assigned for all 4 directions
+    – padding: 10px means apply the padding on the 4 sides
+    – padding: 10px 20px means 10px in top and bottom & 20px at the left and right
+    – padding: 10px 20px 30px means top = 10px, left & right = 20px, and bottom = 30px
+    – padding: 10px 15px 20px 25px means top = 10px, right = 15px, bottom = 20px, left = 25px
+
+
+*/
+
+
+/* 
+alignment while padding
+while something is padded, it might seem unaligned
+its actually aligned based on the text and all the browsers are previously text based 
+
+to overright this
+we can use
+vertical-align:top;
+
+
+here the only button with border is join 
+so it has a larger size of 1px than other buttons
+so it seems a bit off
+so we can compensate it by reducing the padding 1 px smaller on the top and bottom
+
+
+
+*/
