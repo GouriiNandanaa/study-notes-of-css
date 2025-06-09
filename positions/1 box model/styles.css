@@ -1,0 +1,17 @@
+/* 
+box model properties are going to work only for box elements 
+not for other inline elements
+*/
+
+
+p,a {
+  width: 50%;
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid #000;
+}
+
+/* 
+here the a will overlap the block p because its not a block level element
+it can be rectified by making the display of a to block or  an inline block
+*/

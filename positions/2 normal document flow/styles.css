@@ -1,0 +1,35 @@
+body{
+  background: #eee;
+}
+
+.wrapper{
+  background: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wrapper:after{
+  content: "";
+  display: block;
+  clear: both;
+}   
+
+
+img{
+  
+  float: left;
+}
+
+/* 
+it lets us position an element to the very left and very right of a parent element
+
+it removes itself from the normal document flow
+
+initially to wrap a text around an image 
+but now used for many other purposes
+
+make text columns
+grid galleries etc
+
+*/
