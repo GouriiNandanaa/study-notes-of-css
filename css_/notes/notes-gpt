@@ -1,0 +1,49 @@
+css beginner notes
+------------------
+
+What is css?
+- Cascading Style Sheets
+- used to style HTML elements - like setting colors, fonts, layouts, spacing, etc
+
+3 Ways to add css
+-------------------
+Inline CSS
+  <p style="color: red;">This is red text.</p>
+
+Internal CSS
+  <style>
+    p {
+      color: red;
+    }
+  </style>
+
+  External CSS
+    <link rel="stylesheet" href="styles.css">
+
+
+
+
+CSS Syntax
+==========
+selector{
+  property: Value;
+}
+
+Eg:
+  h1
+  {
+    color:blue;
+  }
+
+
+i am gouri
+i am a 21 year old B tech graduate coming from a rural place called Kadakkal in Kollam District of Kerala
+I used to be an extroverted active child in the school till my 11th standard
+
+But then the corona pandemic shook the world
+Everyone got stuck in their homes and so do I.
+
+Until the end of the lock down its actually a good time for me
+i read lots and lots of book
+i spend a lot of time with my online friends
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh rthththrthth             
