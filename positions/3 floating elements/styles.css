@@ -4,3 +4,42 @@ p{
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.4em;
 }
+body{
+  background-color: #eee;
+}
+
+.wrapper{
+  background-color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+} 
+
+.wrapper:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img{
+  float: top;
+  margin: 10px;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+  float: right;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+}
